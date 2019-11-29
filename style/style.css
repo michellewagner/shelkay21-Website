@@ -3,6 +3,10 @@
   Padding: 0;
   border: 0;
 }
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}
 
 h1  {
 font-family: 'Dancing Script', cursive;
@@ -30,7 +34,7 @@ font-size: 24px;
 }
 
 .home-page {
-  background: #25977A;
+  background: purple;
   left: 0;
   right: 0;
   top: 85px;
@@ -48,32 +52,71 @@ header nav ul li {
   display: inline;
 }
 
-header nav a {
+nav {
+  text-align: center;
   color: White;
   text-decoration: none;
+  text-align: center;
   font-weight: bold;
   font-size: 30px;
   margin: 0 30px;
-
-  footer {
-    background: purple;
-    font-family: 'Open Sans Condensed', sans-serif;
-    left: 0;
-    right: 0;
-    padding: 10px 0;
   }
 
-  footer a,
-  footer p,
-  footer td {
-    color: white;
-    font-size: 24px;
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
+header nav a {
+  color: White;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 30px;
+}
+.intro {
+  padding: 60px;
+  max-width: 800px;
+  max-width:800px;
+  margin:0 auto;
+}
+.gifts {
+  margin: 40px 10px;
+  background:#25977A;
+  display: inline-block;
+  margin-left: 200px;
+
+}
+
+.gifts h3 {
+  text-align: center;
+}
+
+.gifts img {
+  padding: 50px;
+  max-height: 300px;
+  max-width:300px;
+  margin:0 auto;
+  object-fit: cover;
+  display: inline;
+}
+
+
+footer a,
+footer p,
+footer td {
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 footer table {
 border: 1px double black;
 position: relative;
 top: 0;
 right: 0;
+}
+
+footer {
+  background: purple;
+  font-family: 'Open Sans Condensed', sans-serif;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
 }
