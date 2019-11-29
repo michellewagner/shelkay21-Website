@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  Padding: 0;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: 'Dancing Script', cursive;
+}
+
+p {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background: #25977A;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+}
+header nav ul li {
+  display: inline;
+}
+
+header nav a {
+  color: White;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 30px;
+}
