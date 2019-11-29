@@ -4,26 +4,46 @@
   border: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1  {
 font-family: 'Dancing Script', cursive;
+text-align: center;
+color: purple;
+font-weight: bold;
+font-size: 70px;
+background: white;
+left: 0;
+right: 0;
+padding: 10px 10px;
+}
+
+h2 {
+font-family: 'Open Sans Condensed', sans-serif;
+  color: White;
+  font-weight: bold;
+  font-size: 70px;
+  padding-left: 20px;
 }
 
 p {
 font-family: 'Open Sans Condensed', sans-serif;
+font-size: 24px;
 }
 
-header {
+.home-page {
   background: #25977A;
-  position: fixed;
   left: 0;
   right: 0;
+  top: 85px;
   padding: 10px 0;
 }
+.sub-page {
+  background: purple;
+  left: 0;
+  right: 0;
+  top: 85px;
+  padding: 10px 0;
+}
+
 header nav ul li {
   display: inline;
 }
@@ -34,4 +54,26 @@ header nav a {
   font-weight: bold;
   font-size: 30px;
   margin: 0 30px;
+
+  footer {
+    background: purple;
+    font-family: 'Open Sans Condensed', sans-serif;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+  }
+
+  footer a,
+  footer p,
+  footer td {
+    color: white;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+footer table {
+border: 1px double black;
+position: relative;
+top: 0;
+right: 0;
 }
