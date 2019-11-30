@@ -47,9 +47,18 @@ font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
 
+h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
 p {
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 35px;
+color: black;
+text-align: center;
 }
  /* <*home and Sub pages*>  */
 .home-page {
@@ -146,7 +155,7 @@ header nav a {
   margin-left: 100px;
   height: 200px;
   margin-left: 400px;
-  width: 1150px;
+  width: 1200px;
 }
 
 .gifts img {
@@ -184,11 +193,6 @@ header nav a {
 }
 
 /* <*form*> */
-.container{
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .contact-form {
   background: #58B9A9;
@@ -246,13 +250,85 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .products img {
-  padding: 20px;
+margin: 0 auto;
   max-height: 400px;
   max-width:400px;
+  align-items: center;
+
+}
+
+.container {
+  margin: 40px 10px;
+  background:#58B9A9;
+  display: inline-block;
+  margin-left: 10px;
+  max-width: 200px;
+}
+
+.container img {
+  padding: 50px;
+  max-height: 300px;
+  max-width:300px;
   margin:0 auto;
   object-fit: cover;
   display: inline;
 }
+
+
+.container1 {
+  margin: 40px 10px;
+  background:#58B9A9;
+  display: inline-block;
+  margin-left: 50px;
+  max-width: 1500px;
+}
+
+.container1 img {
+  padding: 50px;
+  max-height: 300px;
+  max-width:600px;
+  margin:0 auto;
+  object-fit: cover;
+  display: inline;
+}
+
+.container2 {
+  margin: 40px 10px;
+  background:#58B9A9;
+  display: inline-block;
+  margin-left: 50px;
+  max-width: 1500px;
+}
+
+.container2 img {
+  padding: 50px;
+  max-height: 300px;
+  max-width:600px;
+  margin:0 auto;
+  object-fit: cover;
+  display: inline;
+}
+
+.container3 {
+  margin: 40px 10px;
+  background:#58B9A9;
+  display: inline-block;
+  margin-left: 50px;
+  max-width: 1500px;
+}
+
+.container3 img {
+  padding: 50px;
+  max-height: 300px;
+  max-width:600px;
+  margin:0 auto;
+  object-fit: cover;
+  display: inline;
+}
+
+
+
+
 
 /* <*footer*> */
 td,
