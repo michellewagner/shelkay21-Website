@@ -37,6 +37,10 @@ font-family: 'Open Sans Condensed', sans-serif;
 h4 {
   font-size: 40px;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: White;
+  padding-left: 20px;
+  text-align: center;
 }
 
 h5 {
@@ -54,6 +58,7 @@ h6 {
     padding-left: 20px;
     text-align: center;
 }
+
 p {
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 35px;
@@ -99,6 +104,11 @@ nav {
     margin: 0 auto;
   }
 
+  nav a:hover {
+    background: white;
+    color: #A87594;
+  }
+
 .home {
     text-align: center;
     color: White;
@@ -130,6 +140,8 @@ header nav a {
   margin: 40px 10px;
   background:#58B9A9;
   display: inline-block;
+  box-shadow: 5px 5px 5px 5px #A87594;
+
 }
 
 .box {
@@ -165,6 +177,7 @@ header nav a {
   margin:0 auto;
   object-fit: cover;
   display: inline;
+  transition: 2s;
 }
 
 .soon {
@@ -173,6 +186,12 @@ header nav a {
 }
 .about img {
   Padding:0 10px;
+  transition: 2s;
+}
+.about img:hover {
+  width: 600px;
+  height: 600px;
+  transition: 2s;
 }
 
 .featured{
@@ -181,6 +200,7 @@ header nav a {
   display: inline-block;
   margin-left: 10px;
   padding: 10px;
+  box-shadow: 5px 5px 5px 5px #A87594;
 }
 
 .featured img {
@@ -196,6 +216,7 @@ header nav a {
 
 .contact-form {
   background: #58B9A9;
+  text-align: center;
   padding: 20px;
   max-width: 500px;
   border-radius: 10px;
@@ -254,7 +275,6 @@ margin: 0 auto;
   max-height: 400px;
   max-width:400px;
   align-items: center;
-
 }
 
 .container {
@@ -269,13 +289,17 @@ margin: 0 auto;
   padding: 50px;
   max-height: 300px;
   max-width:300px;
-  margin:0 auto;
   object-fit: cover;
   display: inline;
 }
 
-
-.container1 {
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7 {
   margin: 40px 10px;
   background:#58B9A9;
   display: inline-block;
@@ -283,52 +307,85 @@ margin: 0 auto;
   max-width: 1500px;
 }
 
-.container1 img {
+.container1 img,
+.container2 img,
+.container3 img,
+.container4 img,
+.container5 img,
+.container6 img,
+.container7 img {
   padding: 50px;
   max-height: 300px;
   max-width:600px;
-  margin:0 auto;
   object-fit: cover;
   display: inline;
 }
 
-.container2 {
-  margin: 40px 10px;
-  background:#58B9A9;
-  display: inline-block;
-  margin-left: 50px;
-  max-width: 1500px;
+.text {
+  background: #58B9A9;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  color: purple;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  margin: 20px auto;
+  clear: none;
 }
 
-.container2 img {
-  padding: 50px;
-  max-height: 300px;
-  max-width:600px;
-  margin:0 auto;
-  object-fit: cover;
-  display: inline;
+.text img {
+  margin: 0 auto;
+  max-height: 500px;
+  max-width:500px;
+  align-items: center;
 }
 
-.container3 {
-  margin: 40px 10px;
-  background:#58B9A9;
-  display: inline-block;
-  margin-left: 50px;
-  max-width: 1500px;
+.hero1 {
+  background: url("../images/gift.jpg") center;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+
 }
 
-.container3 img {
-  padding: 50px;
-  max-height: 300px;
-  max-width:600px;
-  margin:0 auto;
-  object-fit: cover;
-  display: inline;
+.hero2 {
+  background: url("../images/bday.jpeg") center;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
 }
 
+.hero3 {
+  background: url("../images/baby.jpg") center;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
 
+.hero4 {
+  background: url("../images/boy.jpeg") center;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+.cloud-top,
+.cloud-bottom {
+  position: absolute;
+}
 
+.cloud-top {
+  width: 200px;
+  top: 35px;
+  opacity: .5;
+  animation: wind 40s linear infinite;
+}
 
+.cloud-bottom {
+  width: 300px;
+  top: 45px;
+  animation: wind 60s linear infinite;
+}
 
 /* <*footer*> */
 td,
@@ -360,4 +417,12 @@ footer {
   padding: 10px 0;
   text-align: center;
   max-height: 250px;
+}
+
+@keyframes wind {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 2000px
 }
