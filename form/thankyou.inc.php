@@ -16,7 +16,7 @@
 <header class="sub-page">
   <h2>Mailing List Sign up</h2>
 </header>
-  <div class="container1">
+  <div class="forminfo">
   <h1>Thank you for your enquiry</h1>
   <p>Thanks for your interest. We have received your message, and we will be in touch shortly.</p>
 </div>

@@ -18,7 +18,7 @@
   </header>
 
 
-<div class="container1">
+<div class="forminfo">
   <h1>Sorry something went wrong with your sumbission</h1>
   <p>Please try again</p>
 </div>

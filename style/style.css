@@ -140,8 +140,8 @@ header nav a {
   margin: 40px 10px;
   background:#58B9A9;
   display: inline-block;
+  padding: 10px;
   box-shadow: 5px 5px 5px 5px #A87594;
-
 }
 
 .box {
@@ -149,7 +149,7 @@ header nav a {
   background:#58B9A9;
   display: inline-block;
   margin-left: 400px;
-  padding: 0;
+  padding: 10px;
 }
 
 .box3 {
@@ -157,17 +157,16 @@ header nav a {
   background:#58B9A9;
   display: inline-block;
   margin-left: 10px;
-  padding: 0;
+  padding: 10px;
 }
 
 .box2 {
   margin: 40px 10px;
   background:#58B9A9;
   display: inline-block;
-  margin-left: 100px;
-  height: 600px;
-  margin-left: 100px;
+  margin-left: 385px;
   width: 1200px;
+  padding: 10px;
 }
 
 .gifts img {
@@ -257,6 +256,13 @@ input {
 textarea {
 font-family: 'Open Sans Condensed', sans-serif;
   padding: 10px 10px;
+}
+
+.forminfo {
+  margin: 50px auto 180px;
+  max-width: 900px;
+  margin: 50px auto 180px;
+  text-align: center;
 }
 
 .products {
@@ -389,6 +395,7 @@ margin: 0 auto;
   width: 300px;
   top: 45px;
   animation: wind 60s linear infinite;
+
 }
 
 /* <*footer*> */
