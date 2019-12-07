@@ -202,6 +202,15 @@ header nav a {
   box-shadow: 5px 5px 5px 5px #A87594;
 }
 
+.featured1 {
+  margin: 40px 10px;
+  background:#58B9A9;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 40px 30px;
+  box-shadow: 5px 5px 5px 5px #A87594;
+}
+
 .featured img {
   padding: 50px;
   max-height: 300px;
